@@ -32,7 +32,7 @@ SR-IOV Support
 | 配置        | 型号                               |
 |-----------|----------------------------------|
 | CPU       | intel i7 12700KF                 |
-| 主板        | MSI MAG BB60M MORTAR WiF DDR4    |
+| 主板        | MSI MAG B660M MORTAR WiF DDR4    |
 | 显卡        | 蓝宝石 AMD Radeon RX 6600 8G OC 超白金 |
 | 内存        | 海盗船 3200MHz 16G * 2              |
 | SSD       | 铠侠 RC20 1T NVME SSD              |
