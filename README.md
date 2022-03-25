@@ -29,17 +29,17 @@ SR-IOV Support
 
 # 本机配置
 
-| 配置        | 型号                               |
-|-----------|----------------------------------|
-| CPU       | intel i7 12700KF                 |
-| 主板        | MSI MAG B660M MORTAR WiF DDR4    |
-| 显卡        | 蓝宝石 AMD Radeon RX 6600 8G OC 超白金 |
-| 内存        | 海盗船 3200MHz 16G * 2              |
-| SSD       | 铠侠 RC20 1T NVME SSD              |
-| 机箱        | 屌丝伯 D30 前面板 1USB 1 TYPE-C(USB转)  |
-| 电源        | 鑫谷750w ATX                       |
-| CPU 风扇    | 利民 PA120 SE                      |
-| WiFi + 蓝牙 | BCM94360CD (PCI+USB转接卡)          |
+| 配置        | 型号                                 |
+|-----------|------------------------------------|
+| CPU       | intel i7 12700KF                   |
+| 主板        | MSI MAG B660M MORTAR WiF DDR4      |
+| 显卡        | 蓝宝石 AMD Radeon RX 6600XT 8G OC 超白金 |
+| 内存        | 海盗船 3200MHz 16G * 2                |
+| SSD       | 铠侠 RC20 1T NVME SSD                |
+| 机箱        | 屌丝伯 D30 前面板 1USB 1 TYPE-C(USB转)    |
+| 电源        | 鑫谷750w ATX                         |
+| CPU 风扇    | 利民 PA120 SE                        |
+| WiFi + 蓝牙 | BCM94360CD (PCI+USB转接卡)            |
 
 
 # 使用情况：
