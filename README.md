@@ -13,19 +13,25 @@ USB定制在15个端口内，保留内置 AX201 蓝牙与内置 JUSB-1 接口
 本引导适用于 B660M 迫击炮主板，主板BIOS需一下设置
 
 
-禁用：
+### 禁用：
 Onboard CNVi Module Control-Disable Integrated
+
 快速开机
+
 Intel VT-D
+
 CFG锁定
+
 Speed Select Technology
 
-开启：
+
+### 开启：
 Re-Size BAR Support
+
 SR-IOV Support
+
 电源 / err ready
 
-注入 AirportBrcmFixup 使943602cs达到 1300M 连接速率但是需要关闭 节能 - 唤醒已供网络访问
 
 # 本机配置
 
