@@ -52,7 +52,17 @@ SR-IOV Support
 cpu正常，节能三项，睡眠正常，唤醒正常，usb2/3正常，声卡正常，wifi正常(禁用自带蓝牙和网卡)
 
 
+# 其他说明
+
+如果需要通过 OC 引导 Windows 请清除配置信息： Config—Misc—Security—scanpolicy 改为 0 
+
 # 更新记录
+
+2022-03-26
+- 取消WG驱动注入(MacPro机型不需要该驱动)显卡跑分变高
+- 引导默认隐藏工具，且不引导windows分区
+- 加入gpu温度传感器，取消显卡注入信息
+- SMBIOS信息改为主板注入（引导windows后显示正确主板信息）
 
 2022-03-25
 基础版本，基于 OC 0.7.9
