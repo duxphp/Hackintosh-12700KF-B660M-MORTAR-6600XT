@@ -8,7 +8,40 @@
 
 USB定制在15个端口内，保留内置 AX201 蓝牙与内置 JUSB-1 接口
 
-# 注意事项
+
+# 本机配置
+
+| 配置        | 型号                                 |
+|-----------|------------------------------------|
+| CPU       | intel i7 12700KF                   |
+| 主板        | MSI MAG B660M MORTAR WiF DDR4      |
+| 显卡        | 蓝宝石 AMD Radeon RX 6600XT 8G OC 超白金 |
+| 内存        | 海盗船 3200MHz 16G * 2                |
+| SSD       | 铠侠 RC20 1T NVME SSD                |
+| 机箱        | 屌丝伯 D30 前面板 1USB 1 TYPE-C(USB转)    |
+| 电源        | 鑫谷750w ATX                         |
+| CPU 风扇    | 利民 PA120 SE                        |
+| WiFi + 蓝牙 | BCM94360CD (PCI+USB转接卡)            |
+
+
+# 使用情况
+cpu正常，节能三项，睡眠正常，唤醒正常，usb2/3正常，声卡正常，wifi正常(禁用自带蓝牙和网卡)
+
+# 避坑指南
+
+### SSD
+
+经真机测速 不支持 三星PM9A1、雷克沙NM800 状况为抹盘时卡在创建分区时或安装缓慢卡在重启安装阶段无限循环
+
+金士顿 KC3000 有用户实测可以正常使用
+
+
+# 其他说明
+
+如果需要通过 OC 引导 Windows 请清除配置信息： Config—Misc—Security—scanpolicy 改为 0 
+
+
+# BIOS 配置
 
 本引导适用于 B660M 迫击炮主板，主板BIOS需一下设置
 
@@ -31,30 +64,6 @@ Re-Size BAR Support
 SR-IOV Support
 
 电源 / err ready
-
-
-# 本机配置
-
-| 配置        | 型号                                 |
-|-----------|------------------------------------|
-| CPU       | intel i7 12700KF                   |
-| 主板        | MSI MAG B660M MORTAR WiF DDR4      |
-| 显卡        | 蓝宝石 AMD Radeon RX 6600XT 8G OC 超白金 |
-| 内存        | 海盗船 3200MHz 16G * 2                |
-| SSD       | 铠侠 RC20 1T NVME SSD                |
-| 机箱        | 屌丝伯 D30 前面板 1USB 1 TYPE-C(USB转)    |
-| 电源        | 鑫谷750w ATX                         |
-| CPU 风扇    | 利民 PA120 SE                        |
-| WiFi + 蓝牙 | BCM94360CD (PCI+USB转接卡)            |
-
-
-# 使用情况：
-cpu正常，节能三项，睡眠正常，唤醒正常，usb2/3正常，声卡正常，wifi正常(禁用自带蓝牙和网卡)
-
-
-# 其他说明
-
-如果需要通过 OC 引导 Windows 请清除配置信息： Config—Misc—Security—scanpolicy 改为 0 
 
 # 更新记录
 
