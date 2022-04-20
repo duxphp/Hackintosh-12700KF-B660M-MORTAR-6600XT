@@ -150,6 +150,24 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
+                    <string>NVMeFix.kext</string>
+                    <key>Comment</key>
+                    <string>V1.0.9</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/NVMeFix</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
                     <string>SMCProcessor.kext</string>
                     <key>Comment</key>
                     <string>V1.2.9</string>
@@ -555,7 +573,7 @@
                 <key>ScanPolicy</key>
                 <integer>3080963</integer>
                 <key>SecureBootModel</key>
-                <string>Disabled</string>
+                <string>Default</string>
                 <key>Vault</key>
                 <string>Optional</string>
             </dict>
@@ -586,6 +604,8 @@
                     <string>-v agdpmod=pikera  gfxrst=1 brcmfx-country=#a</string>
                     <key>csr-active-config</key>
                     <data>AAAAAA==</data>
+                    <key>prev-lang:kbd</key>
+                    <string>zh-Hans:252</string>
                 </dict>
             </dict>
             <key>Delete</key>
@@ -619,7 +639,7 @@
             <key>Generic</key>
             <dict>
                 <key>AdviseFeatures</key>
-                <true/>
+                <false/>
                 <key>MLB</key>
                 <string></string>
                 <key>MaxBIOSVersion</key>
@@ -695,7 +715,7 @@
                 <key>AudioCodec</key>
                 <integer>0</integer>
                 <key>AudioDevice</key>
-                <string></string>
+                <string>PciRoot(0x0)/Pci(0x1F,0x3)</string>
                 <key>AudioOutMask</key>
                 <integer>0</integer>
                 <key>AudioSupport</key>
@@ -798,7 +818,7 @@
                 <key>TextRenderer</key>
                 <string>BuiltinGraphics</string>
                 <key>UIScale</key>
-                <integer>2</integer>
+                <integer>1</integer>
                 <key>UgaPassThrough</key>
                 <false/>
             </dict>
