@@ -43,35 +43,32 @@ cpu正常，节能三项，睡眠正常，唤醒正常，usb2/3正常，声卡�
 
 # BIOS 配置
 
-本引导适用于 B660M 迫击炮主板，主板BIOS需一下设置
+本引导适用于 B660M 迫击炮主板，主板BIOS需以下设置，请将bios更新到最新版本 7D42v17
 
 
 ### 禁用：
-Onboard CNVi Module Control-Disable Integrated
 
-快速开机
+SETTING - 安全引导
 
-Intel VT-D
-
-CFG锁定
-
-Speed Select Technology
+OC - CPU特征 VT-D
 
 
 ### 开启：
-Re-Size BAR Support
 
-SR-IOV Support
+BETA - D.T.M
 
-电源 / err ready
+BETA - SR-IOV Support
+
+SETTING - ACPI - Re-Size BAR Support
 
 
 # 更新记录
+
+2022-08-16
+升级 OC 引导到 0.8.3，增加 BIOS 卡EB选项
 
 2022-04-20
 修正更新0.8后无法启动的问题，增加nvmefix驱动，缩小启动ui图标
-
-# 更新记录
 
 2022-04-19
 更新 OC 到 0.8.0 更新驱动到最新版本
