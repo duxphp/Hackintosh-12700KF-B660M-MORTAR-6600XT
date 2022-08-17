@@ -67,7 +67,7 @@ SETTING - ACPI - Re-Size BAR Support
 # 更新记录
 
 2022-08-16
-升级 OC 引导到 0.8.3，增加 BIOS 卡EB选项
+升级 OC 引导到 0.8.3，修正更新 BIOS 后卡EB的问题
 
 2022-04-20
 修正更新0.8后无法启动的问题，增加nvmefix驱动，缩小启动ui图标
