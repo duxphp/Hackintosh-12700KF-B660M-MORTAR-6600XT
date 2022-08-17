@@ -42,6 +42,8 @@ cpu正常，节能三项，睡眠正常，唤醒正常，usb2/3正常，声卡�
 
 经过长期使用测试，mac pro 机型不需要加载 WhateverGreen.kext 驱动同时也不需要配套防的补丁 agdpmod=pikera 默认已取消该驱动加载
 
+该引导同样适用于 12代 大小核设计CPU，12600及以上，请在 BIOS 禁用核显
+
 
 # BIOS 配置
 
