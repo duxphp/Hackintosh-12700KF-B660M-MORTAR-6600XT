@@ -83,6 +83,10 @@ SETTING - ACPI - Re-Size BAR Support
 
 # 更新记录
 
+2022-11-04
+
+- 重新定制 CPUFriendDataProvider 变频驱动，让cpu跑分变频正常
+
 2022-10-25
 
 #### 该版本为 macos 13 版本，macos12版本更新会导致intel网卡无法使用，仅供 macos13 使用，该版本的intel wifi驱动会导致开机联网缓慢，请注意
