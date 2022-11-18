@@ -17,7 +17,7 @@ USB定制在15个端口内，保留内置 AX201 蓝牙与内置 JUSB-1 接口
 | 主板        | MSI MAG B660M MORTAR WiF DDR4  / MSI Z690 刀锋钛 DDR4   |
 | 显卡        | 蓝宝石 AMD Radeon RX 6600XT 8G OC 超白金 / 蓝宝石 RX6900XT 毒药 |
 | 内存        | 海盗船 3200MHz 16G * 2 / 酷兽 DDR4 8G * 4                 |
-| SSD       | 铠侠 RC20 1T NVME SSD / 铠侠 RD20 512G NVME SSD          |
+| SSD       |  铠侠 RD20 512G NVME SSD / 大华C970 PRO         |
 | 机箱        | 屌丝伯 D30 前面板 1USB 1 TYPE-C(USB转)                      |
 | 电源        | 鑫谷750w ATX                                           |
 | CPU 风扇    | 利民 PA120 SE                                          |
@@ -38,8 +38,6 @@ cpu正常，节能三项，睡眠正常，唤醒正常，usb2/3正常，声卡�
 三星PM9A1
 
 雷克沙NM800
-
-大华C970 PRO
 
 状况为抹盘时卡在创建分区时或安装缓慢卡在重启安装阶段无限循环
 
