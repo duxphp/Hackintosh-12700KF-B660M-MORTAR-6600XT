@@ -11,21 +11,23 @@ USB定制在15个端口内，保留内置 AX201 蓝牙与内置 JUSB-1 接口
 
 # 本机配置
 
-| 配置        | 型号                                 |
-|-----------|------------------------------------|
-| CPU       | intel i7 12700KF                   |
-| 主板        | MSI MAG B660M MORTAR WiF DDR4      |
-| 显卡        | 蓝宝石 AMD Radeon RX 6600XT 8G OC 超白金 |
-| 内存        | 海盗船 3200MHz 16G * 2                |
-| SSD       | 铠侠 RC20 1T NVME SSD                |
-| 机箱        | 屌丝伯 D30 前面板 1USB 1 TYPE-C(USB转)    |
-| 电源        | 鑫谷750w ATX                         |
-| CPU 风扇    | 利民 PA120 SE                        |
-| WiFi + 蓝牙 | 主板自带 intel AX201                   |
+| 配置        | 型号                                                   |
+|-----------|------------------------------------------------------|
+| CPU       | intel i7 12700KF / intel i5 12600KF                  |
+| 主板        | MSI MAG B660M MORTAR WiF DDR4  / MSI Z690 刀锋钛 DDR4   |
+| 显卡        | 蓝宝石 AMD Radeon RX 6600XT 8G OC 超白金 / 蓝宝石 RX6900XT 毒药 |
+| 内存        | 海盗船 3200MHz 16G * 2 / 酷兽 DDR4 8G * 4                 |
+| SSD       | 铠侠 RC20 1T NVME SSD / 铠侠 RD20 512G NVME SSD          |
+| 机箱        | 屌丝伯 D30 前面板 1USB 1 TYPE-C(USB转)                      |
+| 电源        | 鑫谷750w ATX                                           |
+| CPU 风扇    | 利民 PA120 SE                                          |
+| WiFi + 蓝牙 | 主板自带 intel AX201                                     |
 
 
 # 使用情况
 cpu正常，节能三项，睡眠正常，唤醒正常，usb2/3正常，声卡正常，wifi正常
+
+新增主机 12600KF + 6900XT 改配置无需修改可安装使用，需要根据机箱定制USB
 
 # 避坑指南
 
@@ -36,6 +38,8 @@ cpu正常，节能三项，睡眠正常，唤醒正常，usb2/3正常，声卡�
 三星PM9A1
 
 雷克沙NM800
+
+大华C970 PRO
 
 状况为抹盘时卡在创建分区时或安装缓慢卡在重启安装阶段无限循环
 
@@ -62,7 +66,7 @@ cpu正常，节能三项，睡眠正常，唤醒正常，usb2/3正常，声卡�
 
 # BIOS 配置
 
-本引导适用于 B660M 迫击炮主板，主板BIOS需以下设置，请将bios更新到最新版本 7D42v17
+本引导适用于 B660M 迫击炮主板，主板BIOS需以下设置，请将bios更新到最新版本 7D42v17 及以上
 
 
 ### 禁用：
@@ -83,13 +87,17 @@ SETTING - ACPI - Re-Size BAR Support
 
 # 更新记录
 
+2022-11-18
+
+- 同步 OC 至 0.8.6
+
 2022-11-04
 
 - 重新定制 CPUFriendDataProvider 变频驱动，让cpu跑分变频正常
 
 2022-10-25
 
-#### 该版本为 macos 13 版本，macos12版本更新会导致intel网卡无法使用，仅供 macos13 使用，该版本的intel wifi驱动会导致开机联网缓慢，请注意
+#### 该版本为 macos 13 版本，macos12版本更新会导致intel网卡无法使用，仅供 macos13 使用，该版本的intel wifi驱动会导致开机联网缓慢，请注意，intel网卡 安装后向导配置是选择暂不联网，进入系统后继续设置
 
 - 升级 OC 引导到 0.8.5
 - 更新驱动适配 macos 13
@@ -107,7 +115,6 @@ SETTING - ACPI - Re-Size BAR Support
 2022-04-19
 
 更新 OC 到 0.8.0 更新驱动到最新版本
-
 
 2022-03-26
 
