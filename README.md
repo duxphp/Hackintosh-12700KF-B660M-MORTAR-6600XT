@@ -85,6 +85,10 @@ SETTING - ACPI - Re-Size BAR Support
 
 # 更新记录
 
+2022-12-13
+- 更新intel wifi驱动到最新测试版
+- 注入6600xt CFG_LINK_FIXED_MAP 解决登录黑屏登录界面分辨率不一致
+
 2022-12-08
 
 - 同步 OC 至 0.8.7

@@ -97,6 +97,13 @@
         <dict>
             <key>Add</key>
             <dict>
+                <key>PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)</key>
+                <dict>
+                    <key>@0,name</key>
+                    <string>ATY,Henbury</string>
+                    <key>CFG_LINK_FIXED_MAP</key>
+                    <integer>1</integer>
+                </dict>
                 <key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
                 <dict>
                     <key>layout-id</key>
